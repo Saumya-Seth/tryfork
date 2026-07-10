@@ -1445,7 +1445,7 @@ footer {
 .ib-diff{display:grid;grid-template-columns:1fr 36px 1fr;gap:10px}.ib-ver{border:1px solid;border-radius:13px;padding:18px;background:#fff}.ib-ver.new{background:#dfff63}.ib-ver h4{font-size:20px}.ib-row{padding:8px 0;border-top:1px solid #aaa;font-size:9px}.ib-darrow{display:grid;place-items:center}
 .ib-depth{padding:clamp(80px,10vw,140px) 0;background:#171814;color:#fff}.ib-depth .ib-grid{grid-template-columns:.7fr 1.3fr}.ib-layers{border-top:1px solid #555}.ib-layer{display:grid;grid-template-columns:44px 1fr auto;gap:14px;padding:18px 0;border-bottom:1px solid #555}.ib-layer>span,.ib-layer small{font:8px "DM Mono";color:#999}.ib-layer small{color:#dfff63}.ib-layer b{font-size:15px}.ib-layer p{font-size:10px;color:#aaa;margin:4px 0}
 .ib-why{padding:clamp(80px,10vw,140px) 0;background:#cec4ff}.ib-why .ib-grid{grid-template-columns:1fr 1fr}.ib-why h2{font-size:clamp(40px,6vw,80px);line-height:.94;letter-spacing:-.06em;margin:0}.ib-why p{font-size:clamp(17px,2vw,23px);line-height:1.4}.ib-point{padding:14px 0;border-top:1px solid;display:grid;grid-template-columns:100px 1fr;gap:14px;font-size:11px}.ib-point b{font:8px "DM Mono"}
-.ib-final{padding:clamp(90px,12vw,170px) 0;background:#dfff63;text-align:center}.ib-final h2{font-size:clamp(48px,9vw,130px);line-height:.84;letter-spacing:-.075em;margin:0 auto;max-width:1200px}.ib-final p{font-size:clamp(16px,2vw,24px);max-width:760px;margin:32px auto}
+.ib-final{padding:clamp(90px,12vw,170px) 0;background:#cec4ff;text-align:center}.ib-final h2{font-size:clamp(48px,9vw,130px);line-height:.84;letter-spacing:-.075em;margin:0 auto;max-width:1200px}.ib-final p{font-size:clamp(16px,2vw,24px);max-width:760px;margin:32px auto}
 @media(max-width:900px){.ib-proofbar .wrap{grid-template-columns:1fr 1fr}.ib-grid,.ib-depth .ib-grid,.ib-why .ib-grid{grid-template-columns:1fr}.ib-flow{grid-template-columns:1fr}.ib-arr{transform:rotate(90deg)}.ib-contract,.ib-moment{grid-template-columns:1fr}}
 @media(max-width:620px){.ib-proofbar .wrap,.ib-not,.ib-rules{grid-template-columns:1fr}.ib-proof{border-left:0;border-top:1px solid}.ib-chips,.ib-claims{grid-template-columns:1fr 1fr}.ib-diff{grid-template-columns:1fr}.ib-darrow{transform:rotate(90deg)}.ib-screen{box-shadow:6px 7px 0 #171814}}
 </style>
@@ -1725,8 +1725,8 @@ footer {
 /* Compare list items (pp-item),was 10px */
 .pp-item       { font-size: 13px !important; gap: 12px !important; padding: 14px 0 !important; line-height: 1.55 !important; }
 .pp-item span  { font-size: 12px !important; margin-top: 3px; }
-.pp-flow-copy  { font-size: 13px !important; line-height: 1.65 !important; }
-.pp-pipeline   { font-size: 10px !important; gap: 10px !important; flex-wrap: wrap; }
+.pp-flow-copy  { font-size: 15px !important; line-height: 1.7 !important; }
+.pp-pipeline   { font-size: 12px !important; gap: 10px !important; flex-wrap: wrap; }
 .pp-market div { font-size: 12px !important; line-height: 1.5 !important; }
 .pp-market b   { font-size: 19px !important; letter-spacing: -0.4px; }
 .pp-output-body p { font-size: 13px !important; }
@@ -1789,9 +1789,9 @@ footer {
 .tiny            { font-size: 9px !important; }
 .kicker          { font-size: 11px !important; letter-spacing: 0.05em !important; margin-bottom: 12px !important; }
 .zc-eyebrow      { font-size: 10px !important; letter-spacing: 0.05em !important; display: block; margin-bottom: 10px !important; }
-.pp-label        { font-size: 9px !important; }
+.pp-label        { font-size: 15px !important; font-weight: 700 !important; letter-spacing: -.01em !important; text-transform: none !important; color: #171713 !important; font-family: 'Inter', sans-serif !important; }
 .ib-num          { font-size: 10px !important; letter-spacing: 0.06em; }
-.pp-flow-head span { font-size: 9px !important; }
+.pp-flow-head span { font-size: 13px !important; letter-spacing: .04em !important; }
 .ib-so-what b    { font-size: 9px !important; }
 .pp-output-top   { font-size: 9px !important; }
 .pp-rec          { font-size: 9px !important; }
@@ -2021,7 +2021,7 @@ footer {
 .pp-primitive h2{font-size:clamp(38px,5.2vw,70px);line-height:.93;letter-spacing:-.06em;margin:8px 0 20px}.pp-primitive h2 em{font-family:Georgia,serif;font-weight:400}
 .pp-primitive .lead{font-size:clamp(17px,1.9vw,24px);line-height:1.4;color:#55574f}
 .pp-flows{display:grid;gap:14px}.pp-flow{border:1px solid #171814;border-radius:16px;overflow:hidden;background:#fff}.pp-flow.fork{background:#cec4ff}
-.pp-flow-head{padding:18px 20px;border-bottom:1px solid #171814;display:flex;justify-content:space-between;gap:16px}.pp-flow-head b{font-size:16px}.pp-flow-head span{font:8px "DM Mono"}
+.pp-flow-head{padding:20px 24px;border-bottom:1px solid #171814;display:flex;justify-content:space-between;align-items:center;gap:16px}.pp-flow-head b{font-size:22px;letter-spacing:-.02em}.pp-flow-head span{font:8px "DM Mono"}
 .pp-flow-copy{padding:16px 20px;font-size:10px;line-height:1.55;color:#55574f}
 .pp-pipeline{padding:17px 20px;background:#171814;color:#fff;display:flex;align-items:center;gap:9px;flex-wrap:wrap;font:8px "DM Mono"}.pp-pipeline i{font-style:normal;color:#dfff63}
 .pp-close{margin-top:clamp(65px,8vw,110px);padding-top:clamp(35px,5vw,60px);border-top:1px solid #171814;display:grid;grid-template-columns:.55fr 1.45fr;gap:30px}
@@ -2539,10 +2539,32 @@ footer {
           <div class="pp-item"><span>✓</span><div>Persistent and editable. The same decision evolves as evidence arrives</div></div>
         </div>
         <div class="pp-output">
-          <div class="pp-output-top"><span>FORK OUTPUT</span><span>MODEL V3</span></div>
-          <div class="pp-output-body">
-            <div class="pp-metric"><b>₹2,499 WTP</b><span>UNKNOWN<br>31% DECISION SENSITIVITY</span></div>
-            <p><b>Guided leads in 68% of scenarios</b>, but flips below 2.7% qualified conversion. This unknown dominates the decision. Resolve it before committing.</p>
+          <div class="pp-output-top"><span>FORK OUTPUT · MODEL V3</span><span>4 VARIABLES · 10K RUNS</span></div>
+          <div class="pp-output-body" style="padding:14px">
+            <div style="background:#DFFF63;border-radius:6px;padding:7px 11px;display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+              <span style="font:600 9px 'DM Mono',monospace;letter-spacing:.05em;color:#171713">PREFERRED OPTION</span>
+              <span style="font:800 11px 'DM Mono',monospace;color:#171713">GUIDED COHORT · 68% OF RUNS</span>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-bottom:11px">
+              <div style="border:1px solid #CEC4FF;background:#F5F3FF;border-radius:6px;padding:7px 9px">
+                <div style="font:600 8px 'DM Mono',monospace;color:#5B4CA8;margin-bottom:2px">UNKNOWN · 31% SENSITIVITY</div>
+                <div style="font:700 13px 'Inter',sans-serif;color:#171713">₹2,499 WTP</div>
+              </div>
+              <div style="border:1px solid #D8D4CA;background:#F9F7F3;border-radius:6px;padding:7px 9px">
+                <div style="font:600 8px 'DM Mono',monospace;color:#706F67;margin-bottom:2px">ESTIMATED · 21% SENSITIVITY</div>
+                <div style="font:700 13px 'Inter',sans-serif;color:#171713">3.1% conversion</div>
+              </div>
+              <div style="border:1px solid #C8E6A0;background:#F4FFEA;border-radius:6px;padding:7px 9px">
+                <div style="font:600 8px 'DM Mono',monospace;color:#3A6B0A;margin-bottom:2px">KNOWN</div>
+                <div style="font:700 13px 'Inter',sans-serif;color:#171713">340 waitlisted</div>
+              </div>
+              <div style="border:1px dashed #D8D4CA;background:#FAFAF8;border-radius:6px;padding:7px 9px">
+                <div style="font:600 8px 'DM Mono',monospace;color:#706F67;margin-bottom:2px">ASSUMED · 2 DEPENDENTS</div>
+                <div style="font:700 13px 'Inter',sans-serif;color:#171713">2.8h support/user</div>
+              </div>
+            </div>
+            <div style="background:#FFF3EC;border:1px solid #FFCBA0;border-radius:5px;padding:7px 10px;margin-bottom:9px;font:500 10px 'DM Mono',monospace;color:#7A3B10;line-height:1.5">BOUNDARY · Flips below 2.7% conversion · currently 3.1% · distance 0.4pp</div>
+            <p style="font-size:11px;line-height:1.55;color:#555;margin:0"><b style="color:#171713">Guided leads 68% of runs.</b> WTP is the dominant unknown. Resolve before committing budget.</p>
           </div>
         </div>
       </article>
@@ -3036,7 +3058,39 @@ footer {
 </div></div></section>
 
 
-<section class="ib-final" id="waitlist"><div class="wrap"><span class="tiny">FORK / DECISION ANALYTICS FOR SMALL TEAMS</span><h2>See what your decision depends on.</h2><p>Fork helps small teams model consequential choices, expose fragile assumptions, find decision boundaries, and learn what matters before they commit.</p><div class="ib-final-cta"><a href="https://tally.so/r/aQo7j9" style="display:inline-block;padding:14px 28px;background:var(--ink);color:var(--bg);border-radius:8px;font-size:15px;font-weight:700;text-decoration:none;transition:opacity .15s" onmouseover="this.style.opacity='.8'" onmouseout="this.style.opacity='1'">Get Early Access →</a></div></div></section>
+<style>
+#fork-final{padding:clamp(80px,11vw,150px) 0;background:#CEC4FF;position:relative;overflow:hidden;text-align:center}
+.ff-grid{position:absolute;inset:0;background-image:radial-gradient(circle,rgba(23,23,19,.06) 1px,transparent 1px);background-size:36px 36px;pointer-events:none}
+.ff-glow{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:700px;height:350px;background:radial-gradient(ellipse,rgba(255,255,255,.3) 0%,transparent 65%);pointer-events:none}
+.ff-chips{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:clamp(40px,5vw,64px);position:relative}
+.ff-chip{border:1px solid rgba(23,23,19,.15);border-radius:99px;padding:7px 15px;font:500 11px 'DM Mono',monospace;color:rgba(23,23,19,.45);letter-spacing:.03em;background:rgba(255,255,255,.3)}
+.ff-chip.dk{border-color:rgba(23,23,19,.3);color:#171713;background:rgba(255,255,255,.5)}
+.ff-chip.acid{border-color:rgba(23,23,19,.2);color:#3A5500;background:#DFFF63}
+#fork-final .ff-eyebrow{font:700 10px 'DM Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:rgba(23,23,19,.5);margin-bottom:18px;display:block;position:relative}
+#fork-final h2{font-size:clamp(34px,5vw,68px);font-weight:800;letter-spacing:-.055em;line-height:.92;color:#171713;margin:0 auto 24px;max-width:900px;position:relative}
+#fork-final h2 em{font-family:Georgia,serif;font-weight:400;font-style:italic;color:#4A3BAA}
+#fork-final p{font-size:clamp(15px,1.6vw,18px);line-height:1.65;color:rgba(23,23,19,.6);max-width:580px;margin:0 auto;position:relative}
+.ff-cta-wrap{margin-top:clamp(36px,4vw,52px);display:flex;flex-direction:column;align-items:center;gap:14px;position:relative}
+.ff-btn{display:inline-block;padding:16px 40px;background:#171713;color:#DFFF63;border-radius:10px;font-size:16px;font-weight:800;text-decoration:none;letter-spacing:-.02em;transition:opacity .15s}
+.ff-btn:hover{opacity:.82}
+.ff-note{font:500 10px 'DM Mono',monospace;color:rgba(23,23,19,.35);letter-spacing:.06em;text-transform:uppercase}
+.ff-stats{display:flex;gap:40px;justify-content:center;margin-top:clamp(48px,5vw,72px);padding-top:clamp(36px,4vw,56px);border-top:1px solid rgba(23,23,19,.15);position:relative}
+.ff-stat b{display:block;font-size:clamp(28px,3.5vw,44px);font-weight:800;letter-spacing:-.04em;color:#171713;line-height:1}
+.ff-stat span{font:500 10px 'DM Mono',monospace;color:rgba(23,23,19,.45);letter-spacing:.06em;text-transform:uppercase;margin-top:6px;display:block}
+@media(max-width:620px){.ff-stats{gap:24px;flex-wrap:wrap}.ff-stats .ff-stat{min-width:40%}}
+</style>
+<section id=fork-final>
+  <div class=ff-grid aria-hidden=true></div>
+  <div class=ff-glow aria-hidden=true></div>
+  <div class=wrap style="position:relative">
+    <span class=ff-eyebrow>Fork / Decision Intelligence</span>
+    <h2>See what your decision<br><em>actually</em> depends on.</h2>
+    <p>Fork helps small teams model consequential choices, expose fragile assumptions, find decision boundaries, and learn what matters before they commit.</p>
+    <div class=ff-cta-wrap>
+      <a class=ff-btn href=https://tally.so/r/aQo7j9>Get Early Access →</a>
+    </div>
+  </div>
+</section>
 
 <footer>
 <div class="footer-logo">fork<div class="logo-dot" style="width:8px;height:8px;margin-left:3px"></div></div>
@@ -3081,10 +3135,7 @@ footer {
 .zc-eyebrow { font-size: 12px !important; letter-spacing: 0.1em !important; text-transform: uppercase !important; }
 </style>
 <style id="unified-headings">
-/* ─── UNIFIED SECTION HEADING SYSTEM ─────────────────────────────────
-   Single source of truth for all section h2s. Overrides all previous
-   per-section declarations. Only ib-final gets a display-size exception.
-──────────────────────────────────────────────────────────────────────── */
+
 .zc-intro h2,
 .pp-head h2,
 .pp-primitive h2,
